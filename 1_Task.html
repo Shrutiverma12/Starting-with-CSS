@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 1</title>
+    <link rel="stylesheet" href="style1.css" />
+    <style>
+      .first p {
+        background-color: purple;
+        color: burlywood;
+        border: 2px solid black;
+      }
+      .fourth p {
+        background-color: rgb(201, 68, 16);
+        color: aliceblue;
+        border: 2px dotted black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first">
+      <h2>This element will Show Internal CSS.</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, qui
+        obcaecati numquam harum placeat magni voluptates mollitia, quisquam
+        alias repellat nobis quasi ex architecto ullam!
+      </p>
+    </div>
+    <div class="second">
+      <h2>This element will Show External CSS.</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, qui
+        obcaecati numquam harum placeat magni voluptates mollitia, quisquam
+        alias repellat nobis quasi ex architecto ullam!
+      </p>
+    </div>
+    <div class="third">
+      <h2>This element will Show Inline CSS</h2>
+      <p
+        style="
+          background-color: aqua;
+          color: rgb(12, 13, 14);
+          border: 2px solid black;
+        "
+      >
+        <!-- the above is a inline css  -->
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, qui
+        obcaecati numquam harum placeat magni voluptates mollitia, quisquam
+        alias repellat nobis quasi ex architecto ullam!
+      </p>
+    </div>
+    <div class="fourth">
+      <h2>In this all three are applied</h2>
+      <p
+        style="background-color: hotpink; color: blue; border: 2px solid black"
+        ;
+      >
+        <!-- The above inline css will applied to the paragraph because inline css has the highest property-->
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, qui
+        obcaecati numquam harum placeat magni voluptates mollitia, quisquam
+        alias repellat nobis quasi ex architecto ullam!
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 3</title>
+    <style>
+      .container {
+        display: flex;
+        height: 400px;
+        width: 600px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        background-color: blanchedalmond;
+      }
+
+      input {
+        background-color: rgb(192, 241, 241);
+        display: block;
+        border-radius: 5px;
+      }
+
+      .btn {
+        margin-left: 30px;
+        margin-top: 15px;
+        height: 40px;
+        width: 90px;
+        border-radius: 10px;
+        color: rgb(63, 3, 63);
+        background-color: rgb(223, 142, 223);
+      }
+
+      input:hover {
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <label for="name" class="main">Name:</label>
+        <input type="text" name="" id="name" class="input" /><br />
+
+        <label for="mobile_no" class="main">Mobile No.:</label>
+        <input
+          type="number"
+          name=""
+          id="mobile_no"
+          class="input"
+          minlength="10"
+        /><br />
+
+        <label for="email" class="main">Email:</label>
+        <input type="email" name="" id="email" class="input" /><br />
+
+        <label for="password" class="main">Password:</label>
+        <input type="password" name="" id="password" class="input" /> <br />
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

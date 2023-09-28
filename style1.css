@@ -1,0 +1,11 @@
+/* This is an external style sheet  */
+.second p {
+  background-color: rgb(199, 100, 170);
+  color: rgb(62, 38, 9);
+  border: 2px solid black;
+}
+.fourth p {
+  background-color: rgb(68, 201, 16);
+  color: rgb(243, 248, 253);
+  border: 2px double black;
+}
